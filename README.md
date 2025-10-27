@@ -68,18 +68,6 @@ If these files exist in the folder they will render below. If they don't, run th
 
 ![Prediction comparison](prediction_comparison.png)
 
-### XGBoost feature importance (1-day ahead)
-
-![XGBoost feature importance](xgboost_feature_importance.png)
-
-### TCN computation graph (torchviz)
-
-![TCN computation graph](tcn_model_computation_graph.png)
-
-### TCN training and validation losses
-
-![TCN training losses](tcn_training_losses.png)
-
 ## Quick run instructions (reproducible steps)
 
 1. Create and activate a Python virtual environment and install packages (example):
