@@ -91,13 +91,3 @@ pip install torch numpy pandas scikit-learn matplotlib xgboost torchviz
 ```bash
 brew install graphviz
 ```
-
-## Artifacts to check in the folder
-
-- `best_tcn_model.pth` — model checkpoint
-- `prediction_comparison.png` — predicted vs actual sample plot
-- `xgboost_feature_importance.png` — XGBoost 1-day importance
-- `tcn_model_computation_graph.png` — torchviz forward-pass graph
-- `tcn_training_losses.png` — loss curves
-
-If any images are missing, re-run the corresponding notebook cells to regenerate them. If you want, I can scan the workspace now and confirm which of the images exist and update the README to only embed the ones present.
